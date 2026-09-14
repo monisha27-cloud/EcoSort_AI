@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+backend/eco_sort.db
+.DS_Store

@@ -1,0 +1,201 @@
+record_id,item,category,e_waste,hazard_level,recyclable,disposal_method,campus_location,instruction,expected_lifespan_years,replacement_period_years,life_status,reuse_possible,reuse_method
+1,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Parking Area,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+2,Power Bank,Battery,Yes,High,Yes,Battery collection,Hostel A,Do not puncture,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+3,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Admin Block,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+4,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Student Centre,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+5,Paper,Paper,No,Low,Yes,Paper recycling,Cafeteria,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+6,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Student Centre,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+7,Printer,IT Equipment,Yes,Moderate,Unknown,E-waste collection,CSE Lab,Remove cartridges,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+8,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,Parking Area,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+9,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,Hostel B,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+10,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Library,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+11,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Science Block,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+12,Electric Cable,Small Electronics,Yes,Low,Yes,E-waste collection,Engineering Block,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+13,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Cafeteria,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+14,Aluminium Can,Metal,No,Low,Yes,Metal recycling,Cafeteria,Rinse if required,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+15,Food Wrapper,General Waste,No,Low,No,General waste,Unknown,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+16,Food Wrapper,General Waste,No,Low,No,General waste,Hostel B,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+17,Router,Networking,Yes,Low,Yes,E-waste collection,Parking Area,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+18,Food Wrapper,General Waste,No,Low,No,General waste,Science Block,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+19,Food Wrapper,General Waste,No,Low,No,General waste,Science Block,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+20,Electric Cable,Small Electronics,Yes,Low,Yes,E-waste collection,Cafeteria,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+21,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Parking Area,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+22,Printer,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel A,Remove cartridges,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+23,Battery,Battery,Yes,High,Yes,Battery collection,Science Block,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+24,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,Main Block,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+25,Mobile,IT Equipment,Yes,Moderate,Yes,E-waste collection,Library,Remove personal data,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+26,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Science Block,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+27,USB Drive,Small Electronics,Yes,Low,Yes,E-waste collection,Library,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+28,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Main Block,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+29,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Unknown,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+30,Battery,Battery,Yes,High,Yes,Battery collection,Engineering Block,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+31,Cardboard,Paper,No,Low,Yes,Paper recycling,Computer Lab,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+32,Router,Networking,Yes,Low,Yes,E-waste collection,Unknown,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+33,Cardboard,Paper,No,Low,Yes,Paper recycling,Main Block,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+34,Power Bank,Battery,Yes,High,Yes,Battery collection,Parking Area,Do not puncture,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+35,Mouse,Peripheral,Yes,Low,Yes,E-waste collection,Admin Block,Keep separate,3-5 years,3-5 years,Long Life,Yes,Reuse or donate if working
+36,Headphones,Small Electronics,Yes,Low,Yes,E-waste collection,Computer Lab,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+37,Monitor,IT Equipment,Yes,Moderate,Yes,E-waste collection,Engineering Block,Do not break screen,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+38,Earphones,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel B,Keep wires intact,1-3 years,1-3 years,Medium Life,Yes,Reuse or donate if working
+39,Earphones,Small Electronics,Yes,Low,Yes,E-waste collection,Admin Block,Keep wires intact,1-3 years,1-3 years,Medium Life,Yes,Reuse or donate if working
+40,Headphones,Small Electronics,Yes,Low,Yes,E-waste collection,Computer Lab,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+41,Aluminium Can,Metal,No,Low,Yes,Metal recycling,Library,Rinse if required,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+42,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Unknown,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+43,Paper,Paper,No,Low,Yes,Paper recycling,Admin Block,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+44,Mobile,IT Equipment,Yes,Moderate,Yes,E-waste collection,Student Centre,Remove personal data,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+45,Aluminium Can,Metal,No,Low,Yes,Metal recycling,Student Centre,Rinse if required,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+46,Power Bank,Battery,Yes,High,Yes,Battery collection,Cafeteria,Do not puncture,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+47,Mobile,IT Equipment,Yes,Moderate,Yes,E-waste collection,Cafeteria,Remove personal data,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+48,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Student Centre,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+49,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Parking Area,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+50,USB Drive,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel A,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+51,USB Drive,Small Electronics,Yes,Low,Yes,E-waste collection,Unknown,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+52,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Student Centre,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+53,CFL,Lighting,Yes,High,Yes,Specialized collection,Computer Lab,Do not break,1-2 years,1-2 years,Short Life,No,Send for safe e-waste recycling
+54,Paper,Paper,No,Low,Yes,Paper recycling,Admin Block,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+55,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Student Centre,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+56,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Hostel A,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+57,Electric Cable,Small Electronics,Yes,Low,Yes,E-waste collection,Engineering Block,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+58,USB Drive,Small Electronics,Yes,Low,Yes,E-waste collection,CSE Lab,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+59,Battery,Battery,Yes,High,Yes,Battery collection,Library,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+60,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Parking Area,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+61,Earphones,Small Electronics,Yes,Low,Yes,E-waste collection,Science Block,Keep wires intact,1-3 years,1-3 years,Medium Life,Yes,Reuse or donate if working
+62,Earphones,Small Electronics,Yes,Low,Yes,E-waste collection,Main Block,Keep wires intact,1-3 years,1-3 years,Medium Life,Yes,Reuse or donate if working
+63,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel A,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+64,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Engineering Block,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+65,Mobile,IT Equipment,Yes,Unknown,Yes,E-waste collection,Cafeteria,Remove personal data,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+66,Headphones,Small Electronics,Yes,Low,Yes,E-waste collection,Main Block,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+67,Electric Cable,Small Electronics,Yes,Low,Yes,E-waste collection,Engineering Block,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+68,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Parking Area,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+69,Router,Networking,Yes,Low,Yes,E-waste collection,Main Block,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+70,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Admin Block,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+71,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Engineering Block,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+72,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Hostel A,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+73,Food Wrapper,General Waste,No,Low,Unknown,General waste,Admin Block,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+74,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,CSE Lab,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+75,Router,Networking,Yes,Unknown,Unknown,E-waste collection,Engineering Block,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+76,Headphones,Small Electronics,Yes,Low,Yes,E-waste collection,Main Block,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+77,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Cafeteria,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+78,Monitor,IT Equipment,Yes,Moderate,Yes,E-waste collection,Engineering Block,Do not break screen,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+79,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Parking Area,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+80,Electric Cable,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel A,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+81,Router,Networking,Yes,Low,Yes,E-waste collection,Parking Area,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+82,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Cafeteria,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+83,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Cafeteria,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+84,Battery,Battery,Yes,High,Yes,Battery collection,Engineering Block,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+85,Electric Cable,Small Electronics,Yes,Low,Unknown,E-waste collection,Cafeteria,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+86,Printer,IT Equipment,Yes,Moderate,Yes,E-waste collection,Science Block,Remove cartridges,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+87,Food Wrapper,General Waste,No,Low,No,General waste,Hostel B,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+88,CFL,Lighting,Yes,High,Yes,Specialized collection,Unknown,Do not break,1-2 years,1-2 years,Short Life,No,Send for safe e-waste recycling
+89,Charger,Small Electronics,Yes,Moderate,Yes,E-waste collection,Parking Area,Don't put in general waste,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+90,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Science Block,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+91,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Library,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+92,Cardboard,Paper,No,Low,Yes,Paper recycling,Science Block,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+93,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel B,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+94,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Cafeteria,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+95,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,Computer Lab,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+96,Tablet,Unknown,Yes,Moderate,Yes,E-waste collection,Cafeteria,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+97,Router,Networking,Yes,Low,Yes,E-waste collection,Hostel B,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+98,CFL,Lighting,Yes,High,Yes,Specialized collection,Admin Block,Do not break,1-2 years,1-2 years,Short Life,No,Send for safe e-waste recycling
+99,Router,Networking,Yes,Low,Yes,E-waste collection,Admin Block,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+100,Printer,IT Equipment,Yes,Unknown,Yes,E-waste collection,Science Block,Remove cartridges,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+101,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel B,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+102,Paper,Paper,No,Low,Yes,Paper recycling,Admin Block,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+103,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Cafeteria,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+104,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Computer Lab,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+105,Cardboard,Paper,No,Low,Yes,Paper recycling,Parking Area,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+106,Router,Networking,Yes,Low,Yes,E-waste collection,Admin Block,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+107,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Admin Block,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+108,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Library,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+109,Monitor,IT Equipment,Yes,Moderate,Yes,E-waste collection,Parking Area,Do not break screen,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+110,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Parking Area,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+111,Headphones,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel B,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+112,Cardboard,Paper,No,Low,Unknown,Paper recycling,Library,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+113,USB Drive,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel A,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+114,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel A,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+115,Paper,Paper,No,Low,Yes,Paper recycling,Main Block,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+116,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Library,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+117,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Admin Block,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+118,Router,Networking,Yes,Low,Yes,E-waste collection,Engineering Block,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+119,Headphones,Unknown,Yes,Low,Yes,E-waste collection,Computer Lab,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+120,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Science Block,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+121,Mouse,Peripheral,Yes,Low,Yes,E-waste collection,Parking Area,Keep separate,3-5 years,3-5 years,Long Life,Yes,Reuse or donate if working
+122,USB Drive,Small Electronics,Yes,Low,Yes,E-waste collection,Engineering Block,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+123,Monitor,IT Equipment,Yes,Moderate,Yes,E-waste collection,Cafeteria,Do not break screen,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+124,Battery,Battery,Yes,High,Yes,Battery collection,Main Block,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+125,Charger,Small Electronics,Yes,Moderate,Yes,E-waste collection,Computer Lab,Don't put in general waste,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+126,CFL,Lighting,Yes,High,Yes,Specialized collection,Cafeteria,Do not break,1-2 years,1-2 years,Short Life,No,Send for safe e-waste recycling
+127,Paper,Paper,No,Low,Yes,Paper recycling,Computer Lab,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+128,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,Parking Area,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+129,Hard Drive,IT Equipment,Yes,Unknown,Yes,E-waste collection,Engineering Block,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+130,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Student Centre,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+131,Router,Networking,Yes,Low,Yes,E-waste collection,Parking Area,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+132,Earphones,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel A,Keep wires intact,1-3 years,1-3 years,Medium Life,Yes,Reuse or donate if working
+133,Mouse,Peripheral,Yes,Low,Yes,E-waste collection,Library,Keep separate,3-5 years,3-5 years,Long Life,Yes,Reuse or donate if working
+134,Monitor,IT Equipment,Yes,Moderate,Yes,E-waste collection,Student Centre,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+135,Glass Bottle,Glass,No,Low,Yes,Glass recycling,CSE Lab,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+136,Router,Networking,Yes,Low,Yes,E-waste collection,Hostel B,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+137,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Parking Area,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+138,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Student Centre,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+139,Food Wrapper,General Waste,No,Low,No,General waste,Unknown,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+140,Router,Networking,Yes,Low,Yes,E-waste collection,Hostel A,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+141,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Student Centre,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+142,Remote Control,Small Electronics,Yes,Low,Yes,E-waste collection,Hostel B,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+143,Cardboard,Paper,No,Low,Yes,Paper recycling,Student Centre,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+144,Charger,Small Electronics,Yes,Moderate,Yes,E-waste collection,Unknown,Don't put in general waste,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+145,USB Drive,Small Electronics,Yes,Low,Yes,E-waste collection,Engineering Block,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+146,Power Bank,Battery,Yes,High,Yes,Battery collection,Parking Area,Do not puncture,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+147,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Cafeteria,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+148,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Library,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+149,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel B,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+150,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Library,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+151,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Science Block,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+152,Webcam,Peripheral,Yes,Low,Yes,E-waste collection,Cafeteria,Keep separate,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+153,Monitor,Unknown,Yes,Moderate,Yes,E-waste collection,Library,No specific instruction,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+154,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Engineering Block,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+155,Keyboard,Peripheral,Yes,Low,Yes,E-waste collection,Main Block,Keep separate,5-8 years,5-8 years,Long Life,Yes,Reuse or donate if working
+156,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Computer Lab,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+157,Aluminium Can,Metal,No,Low,Yes,Metal recycling,CSE Lab,Rinse if required,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+158,Router,Networking,Yes,Low,Yes,E-waste collection,Cafeteria,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+159,Mobile,IT Equipment,Yes,Moderate,Yes,E-waste collection,Unknown,Remove personal data,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+160,Paper,Paper,No,Low,Yes,Paper recycling,Engineering Block,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+161,Monitor,IT Equipment,Yes,Moderate,Yes,E-waste collection,Library,Do not break screen,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+162,Router,Networking,Yes,Low,Yes,E-waste collection,Parking Area,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+163,Earphones,Small Electronics,Yes,Low,Yes,E-waste collection,Computer Lab,Keep wires intact,1-3 years,1-3 years,Medium Life,Yes,Reuse or donate if working
+164,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel B,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+165,Mouse,Peripheral,Yes,Low,Yes,E-waste collection,Student Centre,Keep separate,3-5 years,3-5 years,Long Life,Yes,Reuse or donate if working
+166,Aluminium Can,Metal,No,Low,Yes,Metal recycling,Library,Rinse if required,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+167,Tablet,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel B,Remove personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+168,CFL,Lighting,Yes,High,Yes,Specialized collection,Computer Lab,Do not break,1-2 years,1-2 years,Short Life,No,Send for safe e-waste recycling
+169,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Cafeteria,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+170,Battery,Battery,Yes,High,Yes,Battery collection,Hostel B,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+171,Mobile,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel B,Remove personal data,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+172,Battery,Battery,Yes,High,Yes,Battery collection,Library,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+173,Hard Drive,IT Equipment,Yes,Moderate,Yes,E-waste collection,Main Block,Erase personal data,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+174,Electric Cable,Unknown,Yes,Low,Yes,E-waste collection,Science Block,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+175,Remote Control,Small Electronics,Yes,Unknown,Yes,E-waste collection,Hostel B,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+176,Mobile,Unknown,Yes,Moderate,Yes,E-waste collection,Science Block,Remove personal data,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+177,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,Main Block,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+178,Mouse,Peripheral,Yes,Low,Unknown,E-waste collection,Main Block,Keep separate,3-5 years,3-5 years,Long Life,Yes,Reuse or donate if working
+179,Printer,IT Equipment,Yes,Moderate,Yes,E-waste collection,Library,Remove cartridges,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+180,Laptop,IT Equipment,Yes,Moderate,Yes,E-waste collection,Hostel A,Do not dismantle,4-6 years,4-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+181,Plastic Bottle,Plastic,No,Low,Yes,Plastic recycling,Main Block,Rinse if required,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse where appropriate or send for plastic recycling
+182,Charger,Small Electronics,Yes,Moderate,Yes,E-waste collection,Hostel B,Don't put in general waste,3-5 years,3-5 years,Long Life,Yes,"Reuse, donate or refurbish if working"
+183,Food Wrapper,General Waste,No,Low,No,General waste,Library,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+184,Remote Control,Small Electronics,Yes,Unknown,Yes,E-waste collection,Library,Remove batteries,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+185,Monitor,IT Equipment,Yes,Moderate,Yes,E-waste collection,Unknown,Do not break screen,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+186,Cardboard,Paper,No,Low,Yes,Paper recycling,Parking Area,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+187,Food Wrapper,General Waste,No,Low,Unknown,General waste,Student Centre,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+188,Paper,Paper,No,Low,Yes,Paper recycling,Computer Lab,Keep dry,Not Applicable,Not Applicable,Not Applicable,Yes,Reuse or send for paper recycling
+189,Earphones,Small Electronics,Yes,Unknown,Yes,E-waste collection,Computer Lab,Keep wires intact,1-3 years,1-3 years,Medium Life,Yes,Reuse or donate if working
+190,CFL,Lighting,Yes,High,Yes,Specialized collection,Admin Block,Do not break,1-2 years,1-2 years,Short Life,No,Send for safe e-waste recycling
+191,Battery,Battery,Yes,High,Yes,Battery collection,Student Centre,Do not puncture,2-4 years,2-4 years,Medium Life,No,Recycle through authorized battery/e-waste collection
+192,Power Bank,Battery,Yes,High,Yes,Battery collection,Engineering Block,Do not puncture,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+193,Cardboard,Paper,No,Low,Yes,Paper recycling,Engineering Block,Keep dry,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+194,Electric Cable,Small Electronics,Yes,Low,Yes,E-waste collection,CSE Lab,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+195,Electric Cable,Small Electronics,Yes,Low,Yes,E-waste collection,Student Centre,Keep separate,2-5 years,2-5 years,Medium Life,Yes,Reuse or donate if working
+196,Food Wrapper,General Waste,No,Low,No,General waste,Main Block,Do not mix with e-waste,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+197,Router,Networking,Yes,Low,Yes,E-waste collection,Science Block,Reset before disposal,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+198,Glass Bottle,Glass,No,Low,Yes,Glass recycling,Computer Lab,Do not break,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+199,Aluminium Can,Metal,No,Low,Yes,Metal recycling,Student Centre,Rinse if required,Varies,Varies,Varies,Depends,Assess condition before reuse or recycling
+200,CFL,Lighting,Yes,High,Yes,Specialized collection,Hostel A,Do not break,1-2 years,1-2 years,Short Life,No,Send for safe e-waste recycling

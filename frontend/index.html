@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoSort AI — Campus Waste Sorting Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="shell">
+  <aside class="rail">
+    <div class="wordmark">EcoSort AI<span>1M1B · Green Skills &amp; Applied AI</span></div>
+
+    <nav class="nav">
+      <button data-view="scan" class="active"><span class="dot"></span>Scan an item</button>
+      <button data-view="catalog"><span class="dot"></span>Catalog</button>
+      <button data-view="dashboard"><span class="dot"></span>Dashboard</button>
+    </nav>
+
+    <div class="rail-footer">
+      <div class="status"><span class="pulse off" id="apiPulse"></span><span id="apiStatus">Checking backend…</span></div>
+      <div id="modelStatusFooter">Vision model not loaded</div>
+    </div>
+  </aside>
+
+  <main>
+
+    <!-- ============================== SCAN ============================== -->
+    <section class="view active" id="view-scan">
+      <h1>Scan an item</h1>
+      <p class="subtitle">Point your camera at a waste item, or upload a photo. A MobileNet vision model
+        running in your browser identifies it, and the catalog tells you exactly where it goes.</p>
+
+      <div class="scan-layout">
+        <div>
+          <div class="camera-frame" id="cameraFrame">
+            <div class="placeholder" id="cameraPlaceholder">Camera is off.<br>Start the camera or upload a photo to begin.</div>
+            <video id="video" autoplay playsinline muted style="display:none;"></video>
+            <img id="previewImg" class="preview" style="display:none;">
+            <span class="scan-corner tl"></span><span class="scan-corner tr"></span>
+            <span class="scan-corner bl"></span><span class="scan-corner br"></span>
+          </div>
+
+          <div class="controls-row">
+            <button class="btn primary" id="btnStartCam">Start camera</button>
+            <button class="btn" id="btnCapture" disabled>Capture frame</button>
+            <button class="btn" id="btnStopCam" disabled>Stop camera</button>
+            <label class="btn" for="fileInput">Upload photo</label>
+            <input type="file" id="fileInput" accept="image/*">
+          </div>
+          <div class="model-status" id="modelStatus">Loading vision model…</div>
+        </div>
+
+        <div class="result-panel" id="resultPanel">
+          <div class="empty-state">Capture or upload an image to see the AI's guess<br>and the disposal instructions.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= CATALOG ============================= -->
+    <section class="view" id="view-catalog">
+      <h1>Item catalog</h1>
+      <p class="subtitle">All 200 records from the campus waste dataset — search, or filter by category, hazard level and recyclability.</p>
+
+      <div class="toolbar">
+        <input type="text" id="searchInput" placeholder="Search by item name…">
+        <select id="filterCategory"><option value="">All categories</option></select>
+        <select id="filterHazard">
+          <option value="">Any hazard level</option>
+          <option value="Low">Low</option>
+          <option value="Moderate">Moderate</option>
+          <option value="High">High</option>
+        </select>
+        <select id="filterRecyclable">
+          <option value="">Recyclable?</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+          <option value="Unknown">Unknown</option>
+        </select>
+      </div>
+
+      <div class="card" style="padding:0; overflow:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th><th>Item</th><th>Category</th><th>Hazard</th>
+              <th>Recyclable</th><th>Disposal method</th><th>Location</th><th>Instruction</th>
+            </tr>
+          </thead>
+          <tbody id="catalogBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============================ DASHBOARD ============================ -->
+    <section class="view" id="view-dashboard">
+      <h1>Impact dashboard</h1>
+      <p class="subtitle">Live aggregates from the catalog database and real scan activity — this is the "Assess Impact" step of the project roadmap.</p>
+
+      <div class="grid cols-4" style="margin-bottom:32px;">
+        <div class="card stat"><div class="figure" id="statTotalItems">–</div><div class="label">Catalog items</div></div>
+        <div class="card stat"><div class="figure" id="statTotalScans">–</div><div class="label">Scans logged</div></div>
+        <div class="card stat"><div class="figure" id="statEwaste">–</div><div class="label">E-waste items</div></div>
+        <div class="card stat"><div class="figure" id="statRecyclable">–</div><div class="label">Recyclable items</div></div>
+      </div>
+
+      <section class="block">
+        <h2>By category</h2>
+        <div class="bar-list" id="barCategory"></div>
+      </section>
+
+      <section class="block">
+        <h2>By hazard level</h2>
+        <div class="bar-list" id="barHazard"></div>
+      </section>
+
+      <section class="block">
+        <h2>Recent scans</h2>
+        <div class="log-list" id="logList"><div class="empty-state">No scans yet — try the Scan tab.</div></div>
+      </section>
+    </section>
+
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.1/dist/mobilenet.min.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

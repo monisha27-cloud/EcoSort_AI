@@ -39,6 +39,9 @@ LABEL_TO_ITEM = {
     "mobile phone": "Mobile",
     "smartphone": "Mobile",
     "iphone": "Mobile",
+    "pinwheel": "Mobile",       # colorful/patterned phone cases often get misread as this
+    "hand-held computer": "Mobile",
+    "dial telephone": "Mobile",
     "headphone": "Headphones",
     "earphone": "Earphones",
     "ear bud": "Earphones",

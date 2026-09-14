@@ -134,31 +134,36 @@ async function classifyElement(el, source) {
   }
   resultPanel.innerHTML = `<div class="empty-state">Analysing image…</div>`;
   try {
-    const predictions = await mobilenetModel.classify(el, 3);
-    const top = predictions[0];
-    await lookupAndRender(top.className, top.probability, source, predictions);
+    const predictions = await mobilenetModel.classify(el, 5);
+    await lookupAndRender(predictions, source);
   } catch (err) {
     console.error(err);
     resultPanel.innerHTML = `<div class="empty-state">Something went wrong analysing the image.</div>`;
   }
 }
 
-async function lookupAndRender(label, confidence, source, allPredictions) {
+async function lookupAndRender(predictions, source) {
   try {
     const res = await fetch(`${API_BASE}/lookup`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ label, confidence, source }),
+      // Send the top few guesses, not just the first - the backend checks
+      // each in turn against the catalog, since the right answer is often
+      // in 2nd or 3rd place rather than 1st.
+      body: JSON.stringify({
+        labels: predictions.map((p) => ({ className: p.className, probability: p.probability })),
+        source,
+      }),
     });
     const data = await res.json();
-    renderResult(data, allPredictions);
+    renderResult(data);
   } catch (err) {
     resultPanel.innerHTML = `<div class="empty-state">Couldn't reach the backend. Is <span class="mono">app.py</span> running on port 5000?</div>`;
     console.error(err);
   }
 }
 
-function renderResult(data, allPredictions) {
+function renderResult(data) {
   if (!data.matched) {
     resultPanel.innerHTML = `
       <h3>No confident match</h3>

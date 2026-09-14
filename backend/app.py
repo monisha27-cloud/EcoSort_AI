@@ -177,36 +177,56 @@ def stats():
 @app.route("/api/lookup", methods=["POST"])
 def lookup():
     """
-    Body JSON: { "label": "<cv model output>", "confidence": 0.87, "source": "camera" }
-    The label may be a raw ImageNet/MobileNet class (e.g. "notebook, laptop")
-    or a free-text search typed by the user. We map it to one of our 25
-    catalog items using cv_mapping.LABEL_TO_ITEM, then fall back to a fuzzy
-    DB match, log the scan, and return the disposal instructions.
+    Body JSON: { "labels": [{"className": "...", "probability": 0.8}, ...], "source": "camera" }
+    (Also accepts the older single-label shape: {"label": "...", "confidence": 0.8}.)
+
+    The CV model gives its top few guesses, which may be generic ImageNet
+    classes (e.g. "notebook, laptop" or a false lead like "pinwheel"). We
+    walk the candidates in order and use the first one that maps to (or
+    fuzzy-matches) a real catalog item, rather than trusting only the very
+    top guess - this meaningfully improves real-world accuracy since the
+    correct answer is often in 2nd or 3rd place.
     """
     payload = request.get_json(silent=True) or {}
-    raw_label = payload.get("label", "")
-    confidence = payload.get("confidence")
     source = payload.get("source", "camera")
+
+    candidates = payload.get("labels")
+    if not candidates:
+        # backward-compatible single-label shape
+        candidates = [{"className": payload.get("label", ""), "probability": payload.get("confidence")}]
 
     conn = get_connection()
     cur = conn.cursor()
 
-    # 1) try the curated CV-label -> item mapping (best for camera scans)
-    mapped_item_name = None
-    label_lower = raw_label.lower()
-    for key, item_name in LABEL_TO_ITEM.items():
-        if key in label_lower:
-            mapped_item_name = item_name
-            break
-
     row = None
-    if mapped_item_name:
-        row = find_best_item_match(mapped_item_name, cur)
+    matched_candidate = None
 
-    # 2) fall back to matching the raw label / search text directly
-    if row is None:
-        row = find_best_item_match(raw_label, cur)
+    for cand in candidates:
+        raw_label = cand.get("className", "")
+        label_lower = raw_label.lower()
 
+        mapped_item_name = None
+        for key, item_name in LABEL_TO_ITEM.items():
+            if key in label_lower:
+                mapped_item_name = item_name
+                break
+
+        if mapped_item_name:
+            row = find_best_item_match(mapped_item_name, cur)
+            if row:
+                matched_candidate = cand
+                break
+
+    # nothing in the curated mapping hit - try a direct fuzzy match on the
+    # top guess as a last resort (handles cases where the CV label already
+    # happens to look like one of our item names)
+    if row is None and candidates:
+        row = find_best_item_match(candidates[0].get("className", ""), cur)
+        if row:
+            matched_candidate = candidates[0]
+
+    top_label = candidates[0].get("className", "") if candidates else ""
+    top_confidence = candidates[0].get("probability") if candidates else None
     result = row_to_dict(row) if row else None
 
     cur.execute(
@@ -216,8 +236,8 @@ def lookup():
         """,
         (
             source,
-            raw_label,
-            confidence,
+            matched_candidate["className"] if matched_candidate else top_label,
+            (matched_candidate or {}).get("probability", top_confidence),
             result["item"] if result else None,
             result["record_id"] if result else None,
         ),
@@ -229,14 +249,14 @@ def lookup():
         return jsonify(
             {
                 "matched": False,
-                "raw_label": raw_label,
+                "raw_label": top_label,
                 "message": "Couldn't confidently match this to an item in the catalog. "
                            "Try searching manually, or dispose of it as General Waste "
                            "if unsure, and flag it for review.",
             }
         )
 
-    return jsonify({"matched": True, "raw_label": raw_label, "item": result})
+    return jsonify({"matched": True, "raw_label": matched_candidate["className"], "item": result})
 
 
 @app.route("/api/scan-logs", methods=["GET"])
